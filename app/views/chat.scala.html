@@ -1,0 +1,18 @@
+@import play.api.mvc.RequestHeader 
+@(title: String)(content: Html)
+
+		<div>
+			<div>
+				<table id="board">
+					<thead>
+						<tr>
+							<th>user</th>
+							<th>message</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				@content
+			</div>
+		</div>

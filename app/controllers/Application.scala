@@ -19,8 +19,6 @@ object Application extends Controller {
   
   def index = Action { implicit request =>
     {
-      println(counter)
-      println("session " + request.session.get(UID))
       val uid = request.session.get(UID).getOrElse {
         counter += 1
         counter.toString

@@ -11,40 +11,33 @@
 <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script type='text/javascript'
 	src='@routes.Assets.at("javascripts/index.js")'></script>
+<link rel="stylesheet" href='@routes.Assets.at("stylesheets/index.css")'/>
+<!-- <link rel='stylesheet'
+	href='@routes.Assets.at("lib/bootstrap/css/bootstrap.min.css")'>
+<link rel='stylesheet'
+	href='@routes.Assets.at("lib/bootstrap/css/bootstrap-theme.min.css")'> -->
 </head>
 <body data-ws-url="@routes.Application.ws().webSocketURL()" class="bg-primary" >
 
-	<div class="container ">
-		<div class="row">
-			<div class="col-xs-12">
-				<table id="board" class="col-xs-12 table table-bordered info">
-					<thead>
-						<tr>
-							<th class="col-xs-3 text-center" >user</th>
-							<th class="col-xs-9" >message</th>
-						</tr>
-					</thead>
-					<tbody>
-					</tbody>
-				</table>
+	<div class="container" id="chat">
+		@chat(".") {
+		<div>
+			<div>
+				Usuário @uuid
+			</div>
+			<div>
+				<form id="msgform">
+					<div>
+						<input id="msgtext" type="text"  class="form-control"
+							placeholder="please type a message" maxlength="30" />
+					</div>
+					<div>
+						<button type="submit" class="btn btn-default ">Submit</button>
+					</div>
+				</form>
 			</div>
 		</div>
-		<div class="row">
-				<div class="col-xs-3 strong text-right ">
-					User @uuid
-				</div>
-				<div class="col-xs-9">
-					<form id="msgform" class="form-horizontal" >
-						<div class="col-xs-8">
-							<input id="msgtext" type="text"  class="form-control"
-								placeholder="please type a message" />
-						</div>
-						<div class="col-xs-1">
-							<button type="submit" class="btn btn-default ">Submit</button>
-						</div>
-					</form>
-				</div>
-		</div>
+		}
 	</div>
 </body>
 </html>

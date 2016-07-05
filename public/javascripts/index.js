@@ -15,6 +15,7 @@ $(document).ready(function() {
 
 
         $("tbody").append("<tr><td>" + message.uid + "</td><td>" + message.msg + "</td></tr>")
+    	$("#msgtext").val("")
 
     }
 

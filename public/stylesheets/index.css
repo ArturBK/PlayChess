@@ -1,0 +1,15 @@
+body {
+    color: blue;
+}
+
+#chat {
+    max-width : 200px;
+    border: solid;
+    padding: 10px;
+}
+
+#board {
+	table-layout:fixed;
+	width: 100%;
+}
+
