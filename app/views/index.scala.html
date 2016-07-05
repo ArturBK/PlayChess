@@ -19,25 +19,27 @@
 </head>
 <body data-ws-url="@routes.Application.ws().webSocketURL()" class="bg-primary" >
 
-	<div class="container" id="chat">
-		@chat(".") {
+		<div class="container" id="chat">
+			@chat(".") {
+	
+			}
+		</div>
 		<div>
 			<div>
-				Usuário @uuid
+				<div>
+					Usuário @uuid
+				</div>
 			</div>
-			<div>
-				<form id="msgform">
-					<div>
-						<input id="msgtext" type="text"  class="form-control"
-							placeholder="please type a message" maxlength="30" />
-					</div>
-					<div>
-						<button type="submit" class="btn btn-default ">Submit</button>
-					</div>
-				</form>
-			</div>
+			<form id="msgform">
+				<div>
+					<input id="msgtext" type="text"  class="form-control"
+						placeholder="please type a message" maxlength="30" />
+				</div>
+				<div>
+					<button type="submit" class="btn btn-default ">Submit</button>
+				</div>
+			</form>
 		</div>
-		}
-	</div>
+
 </body>
 </html>

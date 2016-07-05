@@ -14,7 +14,7 @@ $(document).ready(function() {
 		var message = JSON.parse(event.data)
 
 
-        $("tbody").append("<tr><td>" + message.uid + "</td><td>" + message.msg + "</td></tr>")
+        $("tbody").append("<tr><td class='chat-line'>" + message.uid + "</td><td class='chat-line'>" + message.msg + "</td></tr>")
     	$("#msgtext").val("")
 
     }

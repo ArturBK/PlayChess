@@ -4,8 +4,11 @@ body {
 
 #chat {
     max-width : 200px;
+    height: 300px;
     border: solid;
     padding: 10px;
+    word-wrap:break-word;
+    overflow-y: scroll;
 }
 
 #board {
@@ -13,3 +16,7 @@ body {
 	width: 100%;
 }
 
+.chat-line{
+	border-bottom: solid;
+    border-width: thin;
+}
