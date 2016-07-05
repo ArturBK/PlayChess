@@ -18,7 +18,7 @@ object Application extends Controller {
   var counter = 0;
   
   def index = Action { implicit request =>
-    {
+  {
       val uid = request.session.get(UID).getOrElse {
         counter += 1
         counter.toString

@@ -16,7 +16,18 @@ body {
 	width: 100%;
 }
 
+#left-panel {
+    float: left;
+}
+
+#center-panel {
+    float: left;
+    margin-left: 30px;
+}
+
 .chat-line{
 	border-bottom: solid;
     border-width: thin;
 }
+
+
