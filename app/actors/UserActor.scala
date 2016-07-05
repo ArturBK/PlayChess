@@ -12,7 +12,6 @@ import scala.xml.Utility
 
 class UserActor(uid: String, board: ActorRef, out: ActorRef) extends Actor with ActorLogging {
 
-
   override def preStart() = {
     println("asdnajsfasf")
     GameActor() ! Subscribe

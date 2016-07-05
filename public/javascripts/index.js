@@ -10,23 +10,24 @@ $(document).ready(function() {
 		console.log("data")
 		console.log(event.data)
 		$('#resposta').text(event.data)
+
+		var message = JSON.parse(event.data)
+
+
+        $("tbody").append("<tr><td>" + message.uid + "</td><td>" + message.msg + "</td></tr>")
+
     }
-	// if errors on websocket
+
 	var onalert = function(event) {
-        $(".alert").removeClass("hide")
+        //$(".alert").removeClass("hide")
     }
 	mapSocket.onerror = onalert
 	mapSocket.onclose = onalert
 
-
-
-
     $( "#msgform" ).submit(function( event ) {
 	    event.preventDefault()
 	    console.log($("#msgtext").val())
-	    console.log($("#msgtext").val())
     	mapSocket.send(JSON.stringify({msg: $("#msgtext").val()}))
-
 	});
 
 })

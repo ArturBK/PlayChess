@@ -1,10 +1,10 @@
 package controllers
 
+
 import scala.Left
 import scala.Right
 import scala.concurrent.Future
-import javax.inject.Inject
-import akka.stream.Materializer
+
 import actors.UserActor
 import play.api.Logger
 import play.api.Play.current
@@ -12,14 +12,15 @@ import play.api.libs.json.JsValue
 import play.api.mvc.Action
 import play.api.mvc.Controller
 import play.api.mvc.WebSocket
-import javax.inject._
-@Singleton
-class Application @Inject()(implicit val mat: Materializer)  extends Controller {
+
+object Application extends Controller {
   val UID = "uid"
   var counter = 0;
-
+  
   def index = Action { implicit request =>
     {
+      println(counter)
+      println("session " + request.session.get(UID))
       val uid = request.session.get(UID).getOrElse {
         counter += 1
         counter.toString
