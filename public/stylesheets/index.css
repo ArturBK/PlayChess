@@ -1,5 +1,4 @@
 body {
-    color: blue;
 }
 
 #chat {
@@ -9,6 +8,7 @@ body {
     padding: 10px;
     word-wrap:break-word;
     overflow-y: scroll;
+    border-width: thin;
 }
 
 #board {
