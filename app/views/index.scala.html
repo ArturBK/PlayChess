@@ -1,6 +1,6 @@
 @import play.api.mvc.RequestHeader 
 
-@(uuid: String)(implicit request: RequestHeader)
+@(uuid: String, fen : String)(implicit request: RequestHeader)
 
 <!DOCTYPE html>
 
@@ -36,7 +36,9 @@
 		</div>
 	</div>
 	<div id="center-panel">
-		@game()
+		@game(title = "hello"){
+			@fen
+		}
 	</div>
 
 </body>

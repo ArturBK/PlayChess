@@ -23,7 +23,7 @@ object Application extends Controller {
         counter += 1
         counter.toString
       }
-      Ok(views.html.index(uid)).withSession {
+      Ok(views.html.index(uid, "")).withSession {
         Logger.debug("creation uid " + uid)
         request.session + (UID -> uid)
       }

@@ -13,6 +13,7 @@ class GameActor extends Actor with ActorLogging {
 
   def receive = LoggingReceive {
     case m:Message => users map { _ ! m}
+    case f:Fen => users map { _ ! f}
     case Subscribe => {
       users += sender
       context watch sender
@@ -27,4 +28,5 @@ object GameActor {
 }
 
 case class Message(uuid: String, s: String)
+case class Fen(fen: String)
 object Subscribe

@@ -30,7 +30,13 @@ $(document).ready(function() {
 	    console.log($("#msgtext").val())
     	mapSocket.send(JSON.stringify({msg: $("#msgtext").val()}))
 	});
-
 })
+
+function sendFen(fen) {
+  	console.log("--sendFensendFensendFensendFensendFensendFen-----------");
+	mapSocket.send(JSON.stringify({fen: fen}))
+};
+
+
 
 
