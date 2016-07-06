@@ -1,13 +1,13 @@
-New log file opened at Tue Jul 05 19:39:32 BRT 2016 by 5288@DESKTOP-S6G56J7
-Taking next connection to: 58219
-New client attempting to connect on port: 58220-58219
-  Address = /169.254.80.80:58219
-This client on port 58220 has uuid 05a294f4-9972-4d7e-816d-0eed888a522e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-05a294f4-9972-4d7e-816d-0eed888a522e
-Taking next connection to: 58219
-New client attempting to connect on port: 58283-58219
-  Address = /169.254.80.80:58219
-Handshake exception on socket: 58283
+New log file opened at Tue Jul 05 21:17:51 BRT 2016 by 7976@DESKTOP-S6G56J7
+Taking next connection to: 60390
+New client attempting to connect on port: 60391-60390
+  Address = /169.254.80.80:60390
+This client on port 60391 has uuid 8a649af4-fbab-4123-b722-9e5f218001bc configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8a649af4-fbab-4123-b722-9e5f218001bc
+Taking next connection to: 60390
+New client attempting to connect on port: 60392-60390
+  Address = /169.254.80.80:60390
+Handshake exception on socket: 60392
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,21 +23,18 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 58219
-New client attempting to connect on port: 58284-58219
-  Address = /169.254.80.80:58219
-This client on port 58284 has uuid e0b7e275-7279-4594-b448-aaacca570473 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-05a294f4-9972-4d7e-816d-0eed888a522e, play-fork-run-e0b7e275-7279-4594-b448-aaacca570473
-Taking next connection to: 58219
+Taking next connection to: 60390
+New client attempting to connect on port: 60393-60390
+  Address = /169.254.80.80:60390
+This client on port 60393 has uuid 7904fcf2-7679-4548-abe2-d3bd34a75612 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-8a649af4-fbab-4123-b722-9e5f218001bc, play-fork-run-7904fcf2-7679-4548-abe2-d3bd34a75612
+Taking next connection to: 60390
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 58219
+Taking next connection to: 60390
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 58219
+Taking next connection to: 60390
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 58219
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 58219
+Taking next connection to: 60390
