@@ -12,13 +12,21 @@ class GameActor extends Actor with ActorLogging {
   var users = Set[ActorRef]()
 
   def receive = LoggingReceive {
-    case m:Message => users map { _ ! m}
-    case f:Fen => users map { _ ! f}
+    case m:Message => {
+      println("message game constroll")
+      users map { _ ! m}
+    }
+    case f:Fen => {
+      println("FEN game constroll")
+      users map { _ ! f}
+    }
     case Subscribe => {
       users += sender
       context watch sender
     }
     case Terminated(user) => users -= user
+    case _ => println("faio ")
+
   }
 }
 
@@ -28,5 +36,5 @@ object GameActor {
 }
 
 case class Message(uuid: String, s: String)
-case class Fen(fen: String)
+case class Fen(uuid: String, fen: String)
 object Subscribe

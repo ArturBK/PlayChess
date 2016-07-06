@@ -3,8 +3,14 @@ var onChange = function(oldPos, newPos) {
   console.log("Old position: " + ChessBoard.objToFen(oldPos));
   console.log("New position: " + ChessBoard.objToFen(newPos));
   console.log("--------------------");
-  sendFen($("#fenFromSocket"))
+  sendFen($("#fen").text())
 };
+
+function loadFen(fen, uid, senderUid) {
+  if (uid != senderUid){
+    board1.position(fen);
+  }
+}
 
 var board1,
   game = new Chess(),

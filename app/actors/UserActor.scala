@@ -19,17 +19,31 @@ class UserActor(uid: String, board: ActorRef, out: ActorRef) extends Actor with 
 
   def receive = LoggingReceive {
     case Message(muid, s) if sender == board => {
+          println("E AE RECEIVE1?")
+
       val js = Json.obj("type" -> "message", "uid" -> muid, "msg" -> s)
       out ! js
     }
-    case Fen(fen) if sender == board => {
-      val js = Json.obj("type" -> "message","fen" -> fen)
+    case Fen(muid, fen) if sender == board => {
+      println("E AE RECEIVE2?")
+
+      val js = Json.obj("type" -> "game", "uid" -> muid, "fen" -> fen)
       out ! js
     }
-    case js: JsValue => (js \ "msg").validate[String] map { Utility.escape(_) }  map { board ! Message(uid, _ ) } 
-    case js: JsValue => (js \ "fen").validate[String] map { Utility.escape(_) }  map { board ! Fen(_) } 
+    case js: JsValue => {
+      println("E AE RECEIVE8?")
+      println(js)
+      (js \ "msg").validate[String] map { Utility.escape(_) }  map { board ! Message(uid, _ ) }
+      (js \ "fen").validate[String] map { Utility.escape(_) }  map { board ! Fen(uid, _ ) } 
 
-    case other => log.error("unhandled: " + other)
+    } 
+    case js: JsValue => {
+      println("E AE RECEIVE7?")
+      (js \ "fen").validate[String] map { Utility.escape(_) }  map { board ! Fen(uid, _) } 
+    }
+
+    case other => println("E AE RECEIVE3?")
+
   }
 }
 
