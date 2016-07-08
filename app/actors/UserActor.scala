@@ -32,7 +32,7 @@ class UserActor(uid: String, board: ActorRef, out: ActorRef) extends Actor with 
       (js \ "oldPos").validate[String] map { oldPos = _ }
       (js \ "newPos").validate[String] map { board ! Fen(uid, oldPos, _ ) }
     }
-    case other => println("E AE RECEIVE3?")
+    case other => println("JsValue invalid")
   }
 }
 

@@ -3,6 +3,9 @@ var onChange = function(oldPos, newPos) {
   var oldPos2 = JSON.parse(JSON.stringify(getChanges(newPos, oldPos)));
   var oldPos3, newPos3;
 
+  console.log("newPos2[0].key");
+  console.log(newPos2[0]);
+
   $.each(newPos2, function(key, value){
     newPos3 = key;
   });
@@ -37,8 +40,8 @@ function loadFen(oldPos, newPos, uid, senderUid) {
 
 var board1,
   game = new Chess(),
-  statusEl = $('#status');
-  // fenEl = $('#fen'),
+  statusEl = $('#status'),
+  fenEl = $('#fen');
   // pgnEl = $('#pgn');
 
 // do not pick up pieces if the game is over
@@ -100,7 +103,7 @@ var updateStatus = function() {
   }
 
   statusEl.html(status);
-  // fenEl.html(game.fen());
+  fenEl.html(game.fen());
   // pgnEl.html(game.pgn());
 };
 

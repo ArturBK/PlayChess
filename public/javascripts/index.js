@@ -12,15 +12,8 @@ $(document).ready(function() {
     }
 
 	mapSocket.onmessage = function(event) {
-		//$('#resposta').text(event.data)
-		console.log("voltou mesmo?")
 		var message = JSON.parse(event.data)
 		senderUid = message.uid;
-		console.log(message)
-		console.log("message")
-		console.log(message.oldObj)
-		console.log(message.newObj)
-
 
 		if (message.newObj == null){
 
@@ -41,7 +34,6 @@ $(document).ready(function() {
 
     $( "#msgform" ).submit(function( event ) {
 	    event.preventDefault()
-	    console.log($("#msgtext").val())
     	mapSocket.send(JSON.stringify({msg: $("#msgtext").val()}))
 	});
 })
