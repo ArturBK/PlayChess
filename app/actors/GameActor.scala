@@ -36,5 +36,5 @@ object GameActor {
 }
 
 case class Message(uuid: String, s: String)
-case class Fen(uuid: String, fen: String)
+case class Fen(uuid: String, oldPos: String, newPos: String)
 object Subscribe

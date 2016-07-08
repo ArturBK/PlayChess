@@ -13,17 +13,23 @@ $(document).ready(function() {
 
 	mapSocket.onmessage = function(event) {
 		//$('#resposta').text(event.data)
-
+		console.log("voltou mesmo?")
 		var message = JSON.parse(event.data)
 		senderUid = message.uid;
-		if (message.fen == null){
+		console.log(message)
+		console.log("message")
+		console.log(message.oldObj)
+		console.log(message.newObj)
+
+
+		if (message.newObj == null){
 
 	        $("tbody").append("<tr><td class='chat-line'>" + message.uid + "</td><td class='chat-line'>" + message.msg + "</td></tr>")
     		$("#msgtext").val("")
 		}
 		else{
 			$("#fenFromSocket").text(message.fen)
-			loadFen(message.fen, $("#uid").text(), senderUid)
+			loadFen(message.oldObj, message.newObj, $("#uid").text(), senderUid)
 		}
     }
 
@@ -40,16 +46,15 @@ $(document).ready(function() {
 	});
 })
 
-function sendFen(fen) {
+function sendFen(oldPos, newPos, fen) {
 	console.log(fen);
 	console.log($("#uid").text());
 	console.log( fen.split(" ")[1]);
 	if ($("#uid").text() == 1 && fen.split(" ")[1] == "b") {
   		console.log("--sendFensendFensendFensendFensendFensendFen-----------");
-    	mapSocket.send(JSON.stringify({fen: fen}))
+    	mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
 	}
 	else if ($("#uid").text() == 2 && fen.split(" ")[1] == "w") {
-    	mapSocket.send(JSON.stringify({fen: fen}))
-
+    	mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
     }
 };

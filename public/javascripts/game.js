@@ -3,13 +3,84 @@ var onChange = function(oldPos, newPos) {
   console.log("Old position: " + ChessBoard.objToFen(oldPos));
   console.log("New position: " + ChessBoard.objToFen(newPos));
   console.log("--------------------");
-  sendFen($("#fen").text())
+  console.log("--------------------");
+console.log(JSON.parse(JSON.stringify(oldPos)));
+
+console.log(JSON.parse(JSON.stringify(newPos)));
+console.log(JSON.parse(JSON.stringify(getChanges(oldPos, newPos))));
+console.log(JSON.parse(JSON.stringify(getChanges(newPos, oldPos))));
+  console.log("--------------------");
+  console.log("--------------------");
+  //console.log(ChessBoard.fenToObj($("#fen").text()));
+
+
+var newPos2 = JSON.parse(JSON.stringify(getChanges(oldPos, newPos)));
+var oldPos2 = JSON.parse(JSON.stringify(getChanges(newPos, oldPos)));
+
+var oldPos3, newPos3;
+
+$.each(newPos2, function(key, value){
+  console.log(key, value);
+  newPos3 = key;
+});
+
+$.each(oldPos2, function(key, value){
+  console.log(key, value);
+  oldPos3 = key;
+});
+
+  sendFen(oldPos3, newPos3, $("#fen").text())
 };
 
-function loadFen(fen, uid, senderUid) {
-  if (uid != senderUid){
-    board1.position(fen);
-  }
+function getChanges(prev, now) {
+    var changes = {};
+    for (var prop in now) {
+        if (!prev || prev[prop] !== now[prop]) {
+            if (typeof now[prop] == "object") {
+                var c = getChanges(prev[prop], now[prop]);
+                if (! _.isEmpty(c) ) // underscore
+                    changes[prop] = c;
+            } else {
+                changes[prop] = now[prop];
+            }
+        }
+    }
+    return changes;
+}
+
+function loadFen(oldPos, newPos, uid, senderUid) {
+  //var possibleMoves = game.moves();
+  console.log("loadFen");
+  console.log(oldPos);
+  console.log(newPos);
+  console.log(uid);
+  console.log(senderUid);
+  // exit if the game is over
+// { from: 'h7', 
+//   to :'h8',
+//   promotion: 'q' }
+  //console.log("board1.position(fen)");
+  //console.log(board1.position(fen));
+  //board1.position({ from: 'a2',    to :'a3', promotion: 'q' });
+  game.move({ from: oldPos,    to :newPos, promotion: 'q' });
+  board1.position(game.fen());
+  //console.log(board1.position(fen));
+  //board1.orientation("flip")
+
+  // window.setTimeout(makeRandomMove, 500);
+
+
+  // if (uid != senderUid){
+  //   console.log(fen.split(" ")[0])
+  //   game.move(fen);
+  //   board1.position(game.fen());
+  //   if (game.turn() === "w") {
+  //     game.turn("w");
+  //   }
+  //   else {
+  //     game.turn("b");
+  //   }
+  // }
 }
 
 var board1,
