@@ -1,33 +1,15 @@
 var onChange = function(oldPos, newPos) {
-  console.log("Position changed:");
-  console.log("Old position: " + ChessBoard.objToFen(oldPos));
-  console.log("New position: " + ChessBoard.objToFen(newPos));
-  console.log("--------------------");
-  console.log("--------------------");
-console.log(JSON.parse(JSON.stringify(oldPos)));
+  var newPos2 = JSON.parse(JSON.stringify(getChanges(oldPos, newPos)));
+  var oldPos2 = JSON.parse(JSON.stringify(getChanges(newPos, oldPos)));
+  var oldPos3, newPos3;
 
-console.log(JSON.parse(JSON.stringify(newPos)));
-console.log(JSON.parse(JSON.stringify(getChanges(oldPos, newPos))));
-console.log(JSON.parse(JSON.stringify(getChanges(newPos, oldPos))));
-  console.log("--------------------");
-  console.log("--------------------");
-  //console.log(ChessBoard.fenToObj($("#fen").text()));
+  $.each(newPos2, function(key, value){
+    newPos3 = key;
+  });
 
-
-var newPos2 = JSON.parse(JSON.stringify(getChanges(oldPos, newPos)));
-var oldPos2 = JSON.parse(JSON.stringify(getChanges(newPos, oldPos)));
-
-var oldPos3, newPos3;
-
-$.each(newPos2, function(key, value){
-  console.log(key, value);
-  newPos3 = key;
-});
-
-$.each(oldPos2, function(key, value){
-  console.log(key, value);
-  oldPos3 = key;
-});
+  $.each(oldPos2, function(key, value){
+    oldPos3 = key;
+  });
 
   sendFen(oldPos3, newPos3, $("#fen").text())
 };
@@ -49,45 +31,15 @@ function getChanges(prev, now) {
 }
 
 function loadFen(oldPos, newPos, uid, senderUid) {
-  //var possibleMoves = game.moves();
-  console.log("loadFen");
-  console.log(oldPos);
-  console.log(newPos);
-  console.log(uid);
-  console.log(senderUid);
-  // exit if the game is over
-// { from: 'h7', 
-//   to :'h8',
-//   promotion: 'q' }
-  //console.log("board1.position(fen)");
-  //console.log(board1.position(fen));
-  //board1.position({ from: 'a2',    to :'a3', promotion: 'q' });
   game.move({ from: oldPos,    to :newPos, promotion: 'q' });
   board1.position(game.fen());
-  //console.log(board1.position(fen));
-  //board1.orientation("flip")
-
-  // window.setTimeout(makeRandomMove, 500);
-
-
-  // if (uid != senderUid){
-  //   console.log(fen.split(" ")[0])
-  //   game.move(fen);
-  //   board1.position(game.fen());
-  //   if (game.turn() === "w") {
-  //     game.turn("w");
-  //   }
-  //   else {
-  //     game.turn("b");
-  //   }
-  // }
 }
 
 var board1,
   game = new Chess(),
-  statusEl = $('#status'),
-  fenEl = $('#fen'),
-  pgnEl = $('#pgn');
+  statusEl = $('#status');
+  // fenEl = $('#fen'),
+  // pgnEl = $('#pgn');
 
 // do not pick up pieces if the game is over
 // only pick up pieces for the side to move
@@ -148,8 +100,8 @@ var updateStatus = function() {
   }
 
   statusEl.html(status);
-  fenEl.html(game.fen());
-  pgnEl.html(game.pgn());
+  // fenEl.html(game.fen());
+  // pgnEl.html(game.pgn());
 };
 
 var cfg = {

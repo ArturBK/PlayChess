@@ -13,11 +13,9 @@ class GameActor extends Actor with ActorLogging {
 
   def receive = LoggingReceive {
     case m:Message => {
-      println("message game constroll")
       users map { _ ! m}
     }
     case f:Fen => {
-      println("FEN game constroll")
       users map { _ ! f}
     }
     case Subscribe => {

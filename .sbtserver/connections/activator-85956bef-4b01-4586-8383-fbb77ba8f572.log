@@ -3677,3 +3677,253 @@ Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"e7","newPos"
 Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
 Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
 Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(debug,application - creation uid 1)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"gg"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(debug,application - creation uid 2)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"gg"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d2","newPos":"d4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d2","newPos":"d4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d7","newPos":"d5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d7","newPos":"d5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c1","newPos":"f4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c1","newPos":"f4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c8","newPos":"f5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c8","newPos":"f5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"e2","newPos":"e3"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"e2","newPos":"e3"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"e7","newPos":"e6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"e7","newPos":"e6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d1","newPos":"h5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d1","newPos":"h5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b8","newPos":"a6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b8","newPos":"a6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"f1","newPos":"c4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"f1","newPos":"c4"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b7","newPos":"b6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b7","newPos":"b6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c4","newPos":"d5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"c4","newPos":"d5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"a8","newPos":"b8"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"a8","newPos":"b8"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d5","newPos":"e6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"d5","newPos":"e6"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b6","newPos":"b5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"b6","newPos":"b5"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"h5","newPos":"f7"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"oldPos":"h5","newPos":"f7"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,FEN game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE2?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"asfsfsfsf"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"VOCÊ É RUIM"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"Você que é!"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"Te deixei ganhar"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE8?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,{"msg":"g"})) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,message game constroll)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,E AE RECEIVE1?)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,Stopping Play fork run ...)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,play - Shutdown application default Akka system.)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572
+Dropping message BackgroundJobLogEvent(4,LogMessage(info,Stopping Play fork run ...)) to dead client activator-85956bef-4b01-4586-8383-fbb77ba8f572

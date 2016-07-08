@@ -47,14 +47,10 @@ $(document).ready(function() {
 })
 
 function sendFen(oldPos, newPos, fen) {
-	console.log(fen);
-	console.log($("#uid").text());
-	console.log( fen.split(" ")[1]);
 	if ($("#uid").text() == 1 && fen.split(" ")[1] == "b") {
-  		console.log("--sendFensendFensendFensendFensendFensendFen-----------");
-    	mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
+		mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
 	}
 	else if ($("#uid").text() == 2 && fen.split(" ")[1] == "w") {
-    	mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
-    }
+		mapSocket.send(JSON.stringify({oldPos: oldPos, newPos: newPos}))
+	}
 };

@@ -24,7 +24,6 @@ object Application extends Controller {
         counter.toString
       }
       Ok(views.html.index(uid, "")).withSession {
-        Logger.debug("creation uid " + uid)
         request.session + (UID -> uid)
       }
     }

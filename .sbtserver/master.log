@@ -6158,3 +6158,10 @@ Copy resource mappings:
 Total time: 1 s, completed 08/07/2016 01:38:49
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6380@DESKTOP-S6G56J7 logs at Fri Jul 08 01:45:39 BRT 2016, goodbye.
